@@ -1,4 +1,24 @@
 {
-  "name":"Node.jsでウェブアプリ",
-  "version":"egg-1"
+  "name": "node-js-sample",
+  "version": "0.0.1",
+  "description": "PDALNode.js is application for learning node.js. I'll try to code any application of javascript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midorizemi/node_js_sample.git"
+  },
+  "author": "midorizemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midorizemi/node_js_sample/issues"
+  },
+  "homepage": "https://github.com/midorizemi/node_js_sample#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {}
 }

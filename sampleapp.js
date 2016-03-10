@@ -8,6 +8,6 @@ console.log('Server running!');
 // リクエストの処理
 function doRequest(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.write('Hello World\n');
+    res.write('Hello World with Heroku\n');
     res.end();
 }
